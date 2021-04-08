@@ -1,0 +1,57 @@
+.App {
+  display: grid;
+  grid-template-columns: 10vw 90vw;
+  grid-template-areas: " sidebar main"; 
+}
+
+h6 {
+  text-align:center;
+}
+
+tr.selected td {
+  background-color: #80dfff;
+  z-index: 1000;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 70vw 20vw;
+  padding-right: 30px;       
+}
+
+.sidebar {
+  background-color:#1f3d7a;
+  color: white;
+  padding:10px;
+}
+
+tr:nth-child(even) {
+  background-color:#F8F8F8;
+}
+
+table tr:hover td {
+  background-color: #ebfafa;
+}
+
+input {
+  width: 80vw;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+
+.nav{
+  align-items: center;
+  padding:5px;  
+}
+
+.nav button:hover {
+  background-color: lightgray;
+}
+
+.nav button{
+  border:none;
+  margin-top:15px;
+  color: black;
+}
+
+
